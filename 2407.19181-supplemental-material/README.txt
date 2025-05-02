@@ -24,8 +24,9 @@ Files provided:
 - A Wolfram Mathematica notebook, the main software associated with this project.
 - It should work as a standalone file; all other files serve to record and work with data that is time-consuming to generate.
 
-02) LSHState.csv
+02) LSHState.csv.zip
 - A recording of SU(3)-invariant LSH States, indexed by LSH quantum numbers.
+  >>> IMPORTANT: In order for trivalent-vertex_ISB.nb to use this data, you MUST first unzip (extract) the file, and place in the same directory as this README, with the name "LSHState.csv".
 
 03) OverlapMatrix.csv
 - OverlapMatrix[{P1,Q1,P2,Q2,P3,Q3}] is the table of inner products between LSH basis states within sector {P1,Q1,P2,Q2,P3,Q3}.
